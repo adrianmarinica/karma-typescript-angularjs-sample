@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "start": "webpack"
   },
   "author": "Adrian Marinica",
   "license": "ISC",
