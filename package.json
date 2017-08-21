@@ -1,0 +1,21 @@
+{
+  "name": "karma-typescript-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Adrian Marinica",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "angular-route": "^1.5.5",
+    "jasmine-core": "^2.6.2",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "karma-typescript": "3.0.3",
+    "typescript": "^2.3.4",
+    "webpack": "^3.4.1"
+  }
+}
