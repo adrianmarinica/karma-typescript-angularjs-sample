@@ -4,19 +4,26 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "karma start",
     "start": "webpack"
   },
   "author": "Adrian Marinica",
   "license": "ISC",
   "devDependencies": {
-    "angular": "^1.5.5",
-    "angular-route": "^1.5.5",
+    "@types/angular": "^1.5.7",
+    "@types/angular-mocks": "^1.5.9",
+    "@types/jasmine": "^2.5.51",
+    "angular": "1.5.5",
+    "angular-mocks": "1.5.5",
+    "angular-route": "1.5.5",
     "jasmine-core": "^2.6.2",
     "karma": "^1.7.0",
+    "karma-chrome-launcher": "^2.1.1",
     "karma-jasmine": "^1.1.0",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "0.0.31",
     "karma-typescript": "3.0.3",
-    "typescript": "^2.3.4",
+    "typescript": "2.3.4",
     "webpack": "^3.4.1"
   }
 }
