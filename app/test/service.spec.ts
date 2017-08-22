@@ -5,7 +5,8 @@ describe('weather service', () => {
     var weather: any;
 
     let app = module("app", []);
-    require("../src/service")(app);
+    require('../src/weather-service')(app);
+    require('../src/temperature-service')(app);
 
     beforeEach(mock.module('app'));
 

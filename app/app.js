@@ -8,6 +8,7 @@ app.config(['$provide', function ($provide) {
 
 }]);
 
-require('./src/service')(app);
+require('./src/temperature-service')(app);
+require('./src/weather-service')(app);
 require('./src/directive')(app);
 require('./src/controller')(app);
