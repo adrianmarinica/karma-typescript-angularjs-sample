@@ -4,7 +4,7 @@
             restrict: 'E',
             replace: true,
             scope: true,
-            template: '<h1>The weather outside is {{ weatherInfo }}.</h1>',
+            template: '<h2>The weather outside is {{ weatherInfo }}.</h2>',
             link: function(scope) {
                 scope.weatherInfo = weather.getInfo();
             }
