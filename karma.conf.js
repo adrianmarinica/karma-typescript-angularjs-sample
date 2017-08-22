@@ -12,23 +12,15 @@
 
         // list of files / patterns to load in the browser
         files: [
-            'node_modules/angular/angular.js',
-            'app/test/empty-module.js',
-            'app/src/service.js',
-            'app/src/directive.js',
-            'app/test/*.spec.ts'
-        ],
-
-
-        // list of files to exclude
-        exclude: [
+            "app/vendor.bundle.js",
+            "app/**/*.+(js|ts)"
         ],
 
 
         // preprocess matching files before serving them to the browser
         // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
         preprocessors: {
-            "**/*.ts": ["karma-typescript"]
+            "app/**/*.+(js|ts)": ["karma-typescript"]
         },
 
 
@@ -36,6 +28,9 @@
             'karma-jasmine', 'karma-chrome-launcher', 'karma-phantomjs-launcher', 'karma-spec-reporter', 'karma-typescript'
         ],
 
+        karmaTypescriptConfig: {
+            tsconfig: "./tsconfig.json",
+        },
 
         // test results reporter to use
         // possible values: 'dots', 'progress'

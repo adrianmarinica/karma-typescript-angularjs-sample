@@ -1,8 +1,11 @@
 ﻿import "angular-mocks";
-import { IModule, mock } from "angular";
+import { IModule, mock, module } from "angular";
 
 describe('weather service', () => {
     var weather: any;
+
+    let app = module("app", []);
+    require("../src/service")(app);
 
     beforeEach(mock.module('app'));
 

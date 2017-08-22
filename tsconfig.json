@@ -1,5 +1,6 @@
 ﻿{
   "compilerOptions": {
+    "allowJs": true,
     "module": "commonjs",
     "noImplicitAny": true,
     "removeComments": true,
@@ -8,6 +9,6 @@
   },
   "compileOnSave": false,
   "include": [
-    "app/test"
+    "app"
   ]
 }

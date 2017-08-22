@@ -13,6 +13,7 @@
     "@types/angular": "^1.5.7",
     "@types/angular-mocks": "^1.5.9",
     "@types/jasmine": "^2.5.51",
+    "@types/webpack": "^3.0.9",
     "angular": "1.5.5",
     "angular-mocks": "1.5.5",
     "angular-route": "1.5.5",
