@@ -1,4 +1,5 @@
 ﻿var angular = require('angular');
+var route = require('angular-route');
 
 var app = angular.module('app', ['ngRoute']);
 

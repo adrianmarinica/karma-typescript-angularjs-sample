@@ -8,9 +8,6 @@ describe('weather controller', () => {
 
     var testDateValue = '2017/8/22';
 
-    let app = module("app", []);
-    require('../src/controller')(app);
-
     beforeEach(mock.module('app'));
 
     beforeEach(mock.inject((_$controller_: any, _$rootScope_: any) => {
